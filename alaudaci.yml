@@ -1,0 +1,6 @@
+version: "v0.1.0"
+pre_ci_boot:
+    image: ubuntu
+    tag: 14.04
+ci:
+    - sleep 3600
